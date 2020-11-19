@@ -1,0 +1,67 @@
+.title{
+	font-family: 'Goldman', cursive;
+	font-size: 3rem;
+	color: white;
+}
+.title1{
+	font-family: 'Goldman', cursive;
+	font-size: 2rem;
+	color: white;
+}
+.circlecheck{
+	margin-left: 40%;
+	color: red;
+}
+.slader{
+	margin-right: 30%;
+	margin-right: 30%;
+	font-size: 2rem;
+}
+.sladerrow2{
+	width: 100%;
+}
+.title2{
+	font-family: 'Goldman', cursive;
+	font-size: 2rem;
+	color: black;
+}
+.title3{
+	font-family: 'Goldman', cursive;
+	font-size: 3rem;
+	color: black;
+}
+.buttons{
+	margin-left: 40%;
+}
+.last{
+	margin-left: 40%;
+	margin-right: 40%;
+}
+.rotateimg{
+ -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+}
+.indexx{
+  position: relative;
+  left: 0px;
+  top: 0%;
+  z-index: 1;
+}
+
+.indexx2{
+  position: relative;
+  left: 0px;
+  top: 0%;
+  z-index: 0;
+}
+
+@media only screen and (max-width:982px){
+
+
+	.rotateimg{
+  -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg);
+  
+}
+
+}
